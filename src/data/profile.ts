@@ -32,11 +32,11 @@ export const profileData: ProfileData = {
   },
   location: "Pune, India",
   educationShort: "B.Tech in Computer Engineering • June 2026",
-  photo: "/profile.jpeg",
+  photo: `${import.meta.env.BASE_URL}profile.jpeg`,
   socials: {
     github: "https://github.com/Atharv-Dev04",
     linkedin: "https://www.linkedin.com/in/atharv-deshmukh-7403a9292/",
     email: "atharvdeshmukh.04@gmail.com"
   },
-  resumeUrl: "/Atharv_Deshmukh_CV.pdf"
+  resumeUrl: `${import.meta.env.BASE_URL}Atharv_Deshmukh_CV.pdf`
 };
